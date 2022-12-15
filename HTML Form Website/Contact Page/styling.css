@@ -1,0 +1,87 @@
+body{
+    background-image: url(/images/background\ pattern.jpg);
+    background-repeat: no-repeat;
+    background-color: #424cf9;
+    background-size: 220px 1450px;
+}
+.form{
+    margin: 25px 225px;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-color: #12006c;
+    height: 50px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    height: inherit;
+}
+.logo{
+    color: #feffff;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    color: #feffff;
+    font-size: 28px;
+}
+.info{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    margin: 100px 250px;
+}
+input[type=text], select {
+    width: 50%;
+   padding: 12px 20px;
+    margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;}
+input[type=email]{
+    width: 50%;
+   padding: 12px 20px;
+    margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;}
+   .container{
+       padding: 80px;
+       background-color: black;
+   }
+   label{
+       font-size: 32px;
+       color: black;
+   }
+   input[type=submit]  {
+       width: 25%;
+       padding: 12px 20px;
+       background-color: chartreuse; 
+       border-radius: 4px;
+   }
+   input[type=reset],  select  {
+    width: 25%;
+    padding: 12px 20px;
+    background-color: white; 
+    border-radius: 4px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: auto;
+    background-color: #12006c;
+    height: 250px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #feffff;
+    align-items: center;
+    justify-items: center;
+}
+.link{
+    font-size: 20px;
+}

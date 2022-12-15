@@ -1,0 +1,93 @@
+body{
+    background-image: url(/images/background\ pattern.jpg);
+    background-repeat: no-repeat;
+    background-color: #424cf9;
+    background-size: 220px 1350px;
+}
+.header{
+    background-color: #12006c;
+    height: 50px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    height: inherit;
+}
+.logo{
+    font-family: 'Poppins', sans-serif;
+    color: #feffff;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    color: #feffff;
+    font-size: 28px;
+}
+.blurb{
+ display: flex;
+ flex-direction: column;
+ max-width: 675px;
+ margin-left: 250px;
+ margin-bottom: 20px;
+ font-family: 'Poppins', sans-serif;
+ font-size: 26px;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    gap: 10px 30px;
+    justify-content: space-evenly;
+    max-width: 560px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
+.tutor{
+    background-color: #feffff;
+    max-width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+button{
+    display: inline-flex;
+    width: 55%;
+    padding-left: 40px;
+    background-color: chartreuse;
+    border: none;
+}
+img{
+    height: 300px;
+    width: 250px;
+}
+.catch{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+.name{
+    font-size: 24px;
+    color: black;
+}
+.about{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.pricing{
+    font-family: 'Poppins', sans-serif;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: auto;
+    background-color: #12006c;
+    height: 250px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #feffff;
+    align-items: center;
+    justify-items: center;
+}
+.link{
+    font-size: 20px;
+}

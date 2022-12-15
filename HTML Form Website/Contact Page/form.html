@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Poppins&display=swap" rel="stylesheet">
+    <title>Contact Page</title>
+</head>
+<body>
+    <div class="header">
+        <header class="navbar">
+            <h1 class="logo">TutorTime</h1>
+            <p class="link"><a href="../Landing page/index.html">Home</p></a>
+            <p class="link"><a href="../Profiles Page/profiles.html">Tutor Profiles</a></p>
+        </header>
+    </div>
+    <div class="info">
+        <h1>Have questions?</h1>
+        <p> Get in contact with any of our tutors by filling out the form below
+        </p>
+    </div>
+    <div class="form">
+        <form id="myform"  autocomplete="on">
+            <label for="fname">First Name</label></br>
+            <input type="text" id="fname" name="fname" required></br>
+            <label for="lname">Last Name</label></br>
+            <input type="text" id="lname" name="lname" required></br>
+            <label for="email">Email Address</label></br>
+            <input type="email" id="email" name="email" required></br>
+            <label for="who">Tutor</label></form></br>
+            <input type="checkbox" id="Tutr1" name="Tutr1" value="Talisa Foster" required>
+            <label for="tutr1">Talisa Foster</label></br>
+            <input type="checkbox" id="Tutr2" name="Tutr2" value="Nia Sonko" required>
+            <label for="tutr2">Nia Sonko</label></br>
+            <input type="checkbox" id="Tutr3" name="Tutr3" value="Kira Roberts" required>
+            <label for="tutr3">Kira Roberts</label></br>
+            <input type="checkbox" id="Tutr4" name="Tutr4" value="Chioma Eguzoraku" required>
+            <label for="tutr4">Chioma Eguzoraku</label></br>
+            <label for="message">Message</label></br>
+            <textarea  name="message" rows="5" cols="50"></textarea></br>
+            <label for="priority">Message Priority</label>
+            <select id="priority" name="priority">
+                <option value="Very High">Very High</option>
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            </br>
+            <input type="submit" value="Submit" onclick="sub()">
+            <input type="reset" value="Reset" onclick="fun()">
+        </form>
+    </div>
+    <footer class="footer">
+        <p>Address: 107 Edu-Town Ro, Suwon, Gyeonggi Province, South Korea</p>
+        <p>Copyright 2022 TutorTime, Inc.</p>
+        <p><a href="#" class="link"> Privacy Policy</p></a>
+        <p><a href="../Profiles Page/profiles.html" class="link">About Us</p></a>
+        <p><a href="../Contact Page/form.html" class="link">Contact Us</a></p>
+        <p><a href="#" class="link">Customer Care</a></p>
+        <p><a href="#" class="link">FAQ</a></p>
+    </footer>
+    <script>
+        function fun() {
+            document.getElementById("myform").reset();
+        }
+        function sub(){
+            document.getElementById("myform").submit();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    background-image: url(/images/background\ pattern.jpg);
+    background-repeat: no-repeat;
+    background-color: #424cf9;
+    background-size: 220px 1350px;
+}
+.header{
+    background-color: #12006c;
+    height: 50px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    height: inherit;
+}
+.logo{
+    color: #feffff;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    color: #feffff;
+    font-size: 28px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px 250px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: auto;
+    background-color: #12006c;
+    height: 250px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #feffff;
+    align-items: center;
+    justify-items: center;
+}
+.link{
+    font-size: 20px;
+}
